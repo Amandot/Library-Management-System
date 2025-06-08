@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Background styling */
+        body {
+            background-image: url('https://www.promoteyourschool.co.uk/wp-content/uploads/2024/11/Chapel-Hill-library-wall-art-0305.webp');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Login container with blur effect */
+        .cont {
+            background: rgba(255, 255, 255, 0.1); /* Transparent white */
+            backdrop-filter: blur(10px); /* Blur effect */
+            -webkit-backdrop-filter: blur(10px); /* Safari support */
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 300px;
+            margin-top: 300px; /* Moves the box downward */
+        }
+
+        /* Heading style */
+        .cont h2 {
+            color: white;
+            margin-bottom: 15px;
+        }
+
+        /* Button styling */
+        .cont a {
+            display: block;
+            margin: 10px;
+            padding: 10px;
+            background: rgba(0, 123, 255, 0.8);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .cont a:hover {
+            background: rgba(0, 86, 179, 0.8);
+        }
+    </style>
+</head>
+<body>
+    <div class="cont">
+        <h2>LOGIN</h2>
+        <div>
+            <a href="http://localhost/library_management/admin/index.php">ADMIN</a>
+        </div>
+        <div>
+            <a href="http://localhost/library_management/index.php">USER</a>
+        </div>
+    </div>
+</body>
+</html>
